@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-const colors = ["#056CF2", "#05AFF2", "#F2E205", "#F28705", "#A62103","##ffffff","#054CF2"];
+const colors = ["#056CF2", "#05AFF2", "#F2E205", "#F28705", "#A62103","#ffffff","#054CF2"];
 const SQUARES = 500;
 
 const getRandomColor = () => colors[Math.floor(Math.random() * colors.length)];
